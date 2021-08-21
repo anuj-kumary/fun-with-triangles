@@ -1,6 +1,6 @@
 const quizContainer = document.querySelector(".quiz-container");
 const submitQuiz = document.querySelector("#submit-quiz");
-const output = document.querySelector("#output");
+const output = document.querySelector("#output-quiz");
 
 const correctAnswer = [
     "90°",
@@ -11,7 +11,8 @@ const correctAnswer = [
 ];
 let score = 0;
 
-submitQuiz.addEventListener("click", () => {
+submitQuiz.addEventListener("click", (e) => {
+    e.preventDefault();
     const data = new FormData(quizContainer);
     let index = 0;
     for (let value of data.values()) {

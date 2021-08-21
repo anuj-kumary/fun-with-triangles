@@ -8,6 +8,24 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <nav>
+        <ul>
+          <li><a href="index.html">Is Triangle?</a></li>
+          <li><a href="takeAQuiz.html">Quiz</a></li>
+          <li><a href="calHypotenuse.html">Hypotenuse</a></li>
+          <li><a href="calArea.html" class="item-active" >Area</a></li>
+        </ul>
+      </nav>
+      <main>
+          <h1>Check Area Of a Triangle</h1>
+          <h2 class="formula">Area of a triangle = 1/2(Base * Height)</h2>
+          <label for="base">Base(in cm)</label>
+          <input type="number" id="base">
+          <label for="height">Height(in cm)</label>
+          <input type="number" id="height">
+          <button id="cal-area-btn">Check Area</button>
+          <div id="output"></div>
+      </main>
      
     <script src="calArea.js"></script>
 </body>

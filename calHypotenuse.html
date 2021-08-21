@@ -5,6 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculate Hypotenuse</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
 
@@ -13,19 +20,26 @@
       <ul>
         <li><a href="index.html">Is Triangle?</a></li>
         <li><a href="takeAQuiz.html">Quiz</a></li>
-        <li><a href="calHypotenuse.html" class="item-active" >Hypotenuse</a></li>
+        <li><a href="calHypotenuse.html" class="item-active">Hypotenuse</a></li>
         <li><a href="calArea.html">Area</a></li>
       </ul>
     </nav>
-    <main>
-      <h1>Check Hypotenuse</h1>
-      <h2 class="formula">Length of Hypotenuse = sqrt(a² + b²)</h2>
-      <label for="a">a= <input type="number" id="a" /></label>
-      <label for="b">b= <input type="number" id="b" /></label>
-      <button id="cal-hypotenuse-btn">Check Hypotenuse</button>
-      <div id="output"></div>
+    <main class="conatainer">
+      <div class="center-container">
+        <h1>Check Hypotenuse</h1>
+        <h2 class="formula">Length of Hypotenuse = sqrt(a² + b²)</h2>
+        <label for="a">a= <input type="number" id="a" /></label>
+        <label for="b">b= <input type="number" id="b" /></label>
+        <button id="cal-hypotenuse-btn">Check Hypotenuse</button>
+        <div id="output">The Length of Hypotenuse come here</div>
+      </div>
     </main>
-
+    <footer>
+      <a class="icon" href="https://github.com/anuj-kumary/"><i class="fab fa-github"></i></a>
+      <a class="icon" href="https://www.linkedin.com/in/anujkumar-yadav-29b2521aa/"><i class="fab fa-linkedin"></i></a>
+      <a class="icon" href="https://twitter.com/TheRealAnujK"><i class="fab fa-twitter"></i></a>
+      <a class="icon" href="https://www.instagram.com/iamanujk_/"><i class="fab fa-instagram"></i></a>
+    </footer>
     <script src="calHypotenuse.js
     "></script>
   </body>

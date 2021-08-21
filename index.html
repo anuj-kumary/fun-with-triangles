@@ -1,33 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Is Triangle?</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
     <nav>
-        <ul>
-            <li><a href="#" class="item-active" >Is Triangle?</a></li>
-            <li><a href="takeAQuiz.html">Quiz</a></li>
-            <li><a href="calHypotenuse.html" >Hypotenuse</a></li>
-            <li><a href="calArea.html" >Area</a></li>
-        </ul>
+      <ul>
+        <li><a href="#" class="item-active">Is Triangle?</a></li>
+        <li><a href="takeAQuiz.html">Quiz</a></li>
+        <li><a href="calHypotenuse.html">Hypotenuse</a></li>
+        <li><a href="calArea.html">Area</a></li>
+      </ul>
     </nav>
-    <main>
-        <h1>IS Triangle?</h1>
-        <label for="angle1" >angle1(in degrees)</label>
-        <input type="number"  class="triangles-angle">
-        <label for="angle1" >angle2(in degrees)</label>
-        <input type="number"  class="triangles-angle">
-        <label for="angle1" >angle3(in degrees)</label>
-        <input type="number"  class="triangles-angle">
+    <main class="conatainer">
+      <div class="center-container">
+        <h1 class="heading">IS Triangle?</h1>
+        <label for="angle1">angle1(in degrees)</label>
+        <input type="number" class="triangles-angle" />
+        <label for="angle1">angle2(in degrees)</label>
+        <input type="number" class="triangles-angle" />
+        <label for="angle1">angle3(in degrees)</label>
+        <input type="number" class="triangles-angle" />
         <button id="is-triangle-btn">Is Triangle?</button>
         <div id="output"></div>
+      </div>
     </main>
-
+    <footer>
+      <a class="icon" href="https://github.com/anuj-kumary/"><i class="fab fa-github"></i></a>
+      <a class="icon" href="https://www.linkedin.com/in/anujkumar-yadav-29b2521aa/"><i class="fab fa-linkedin"></i></a>
+      <a class="icon" href="https://twitter.com/TheRealAnujK"><i class="fab fa-twitter"></i></a>
+      <a class="icon" href="https://www.instagram.com/iamanujk_/"><i class="fab fa-instagram"></i></a>
+      <p></p>
+    </footer>
     <script src="index.js"></script>
-</body>
+  </body>
 </html>

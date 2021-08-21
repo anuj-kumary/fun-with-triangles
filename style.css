@@ -9,7 +9,7 @@ body {
   color: #fff;
 }
 nav {
-  background-color: #5b21b6;
+  background-color: #604db6;
   padding: 1.5rem;
 }
 ul {
@@ -29,12 +29,12 @@ a {
   border-bottom: 2px solid;
   font-weight: 700;
 }
-main {
-  width: 100%;
-  max-width: 700px;
+.conatainer {
+  max-width: 100%;
   margin: auto;
   padding: 2rem 1rem;
-  background-color: #a5b4fc;
+  height: auto;
+  background-color: #1f2a38;
 }
 h1 {
   text-align: center;
@@ -75,14 +75,8 @@ button {
   font-size: 1.5rem;
 }
 #output-quiz {
-  /* color: #fff; */
   text-align: center;
   font-size: 1.3rem;
-}
-.conatainer {
-  max-width: 100%;
-  height: auto;
-  background-color: #1f2a38;
 }
 .heading {
   color: #fff;
